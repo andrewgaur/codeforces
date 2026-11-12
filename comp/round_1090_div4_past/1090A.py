@@ -1,5 +1,3 @@
-import sys
-input = sys.stdin.readline
 
 """
 Codeforces Round 1090 Div 4, Problem A
@@ -17,6 +15,10 @@ each test case contains single integer -67 <= x <= 67.
 output:
 for each case, output one int -67 <= y <= 67 s.t. min(x,y) is maximized.
 """
+
+import sys
+input = sys.stdin.readline
+
 
 t = int(input())
 
